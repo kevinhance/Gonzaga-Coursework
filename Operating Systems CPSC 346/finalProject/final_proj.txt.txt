@@ -1,0 +1,50 @@
+1.	Download MINIX 3 iso from: 	http://download.minix3.org/iso/snapshot/
+					http://download.minix3.org/iso/snapshot/minix_R3.4.0rc6-d5e4fc0.iso.bz2
+2.	Unzip file
+3.	Open Virtual Box
+4.	Follow instructions here https://wiki.minix3.org/doku.php?id=www:getting-started:start
+Click new
+Name can be anything, type=other and version=other/unknown, then continue
+Select 2048 megabytes of Ram and continue
+Select ‘Create a virtual hard disk now’ then ‘Create’
+Select ‘VDI (VirtualBox Disk Image)’ then click continue
+Select ‘Dynamically allocated’ then click continue
+Select 20.00 GB of hard disk space then click create
+Double clicked your new virtual machine in virtualbox to start it up.
+Select the minix_R3.4.0rc6-d5e4fc0.iso file as the virtual optical disk file and click start
+Press enter upon initial boot prompt about what version of minix to use.
+Login by typing ‘root’ and enter
+5.	Once you see the '#minix:' prompt, type setup and hit enter
+6.	Press enter or ‘y’ through all prompts (default install options)
+7.	Now, exit out of your virtual machine, this must be down by hitting the red ‘x’ and then selecting ‘power off the machine’. This Is an important step to do exactly in this manner
+8.	rename the .iso file (minix_R3.4.0rc6-d5e4fc0.iso) you mounted to the virtual machine (you can rename this to anything different from the original filename, it does not matter)
+9.	boot your virtual machine back up again (AFTER renaming the iso file), pressing enter upon any prompts. Login as ‘root’
+10.	Type pkgin update
+11.	Type pkgin_sets, type ‘y’ or ‘Y’ for each prompt
+12.	Navigate to usr folder using command cd /usr
+13.	Type: git clone git://git.minix3.org/minix src
+14.	code modification:
+		navigate to /usr/src/minix/drivers/tty
+		vi tty/tty.c
+		add 1069
+		[
+			if (ch == tp->tty_termios.c_cc[VWERASE]) {
+				u16_t head;
+				
+				int seen_space = 0;
+				while(!seen_space) {
+					if(tp->tty_incount < 1) break;
+					head = *(tp->tty_inhead-1) & IN_CHAR;
+					if(head == ' ') seen_space = 1;
+					(void) back_over(tp);
+				}
+				continue;
+			}
+		]
+		
+		
+15.	cd /usr/src then ‘make build’
+16.	cd /usr/src/releastools, then ‘make hdboot’
+17.	reboot
+
+

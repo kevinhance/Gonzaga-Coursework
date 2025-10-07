@@ -1,0 +1,112 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.9248125 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "names" 
+        xmin = 0 
+        xmax = 2.9248125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.9248125 
+            text = "Kevin Hance (CPSC 475-01)" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "orthTrans" 
+        xmin = 0 
+        xmax = 2.9248125 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1693000250334637 
+            text = "'" 
+        intervals [2]:
+            xmin = 0.1693000250334637 
+            xmax = 0.37535157948929165 
+            text = "she" 
+        intervals [3]:
+            xmin = 0.37535157948929165 
+            xmax = 0.5846764032253912 
+            text = "had" 
+        intervals [4]:
+            xmin = 0.5846764032253912 
+            xmax = 0.7775297216716431 
+            text = "your" 
+        intervals [5]:
+            xmin = 0.7775297216716431 
+            xmax = 1.0396124364832164 
+            text = "dark" 
+        intervals [6]:
+            xmin = 1.0396124364832164 
+            xmax = 1.2918052375283153 
+            text = "suit" 
+        intervals [7]:
+            xmin = 1.2918052375283153 
+            xmax = 1.4253190733757206 
+            text = "in" 
+        intervals [8]:
+            xmin = 1.4253190733757206 
+            xmax = 1.7912458827352757 
+            text = "greasy" 
+        intervals [9]:
+            xmin = 1.7912458827352757 
+            xmax = 2.0829983388462723 
+            text = "wash" 
+        intervals [10]:
+            xmin = 2.0829983388462723 
+            xmax = 2.374750794957269 
+            text = "water" 
+        intervals [11]:
+            xmin = 2.374750794957269 
+            xmax = 2.5379343721040977 
+            text = "all" 
+        intervals [12]:
+            xmin = 2.5379343721040977 
+            xmax = 2.81979691444862 
+            text = "year" 
+        intervals [13]:
+            xmin = 2.81979691444862 
+            xmax = 2.9248125 
+            text = "'" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "fricatives" 
+        xmin = 0 
+        xmax = 2.9248125 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.9248125 
+            text = "sh (0.184), zh (0.569), s (0.985), s (1.587), sh (1.979)" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "phonesTrans" 
+        xmin = 0 
+        xmax = 2.9248125 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1930706085255354 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1930706085255354 
+            xmax = 0.37558489497528835 
+            text = "/Si/" 
+        intervals [3]:
+            xmin = 0.37558489497528835 
+            xmax = 0.5791655529242175 
+            text = "/h@d/" 
+        intervals [4]:
+            xmin = 0.5791655529242175 
+            xmax = 0.7626948510219315 
+            text = "/ZA/" 
+        intervals [5]:
+            xmin = 0.7626948510219315 
+            xmax = 2.9248125 
+            text = "" 
