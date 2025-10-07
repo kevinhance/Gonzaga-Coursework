@@ -1,0 +1,182 @@
+html {
+    font-family: lato;
+    background-color: rgb(252, 238, 196);
+}
+
+/* By doing this, elements can go all the way to the side of the page.
+   You can get rid of this if you want */
+body {
+    margin: 15px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Link that has not been visited */
+a:link {
+    color:rgb(90, 87, 221);
+}
+
+/* Link where the mouse is hovering over the it */
+a:hover {
+    color: rgb(29, 0, 221);
+}
+
+/* Link that is being actively clicked on */
+a:active {
+    color: rgb(0, 0, 255);
+}
+
+/* Link that has been visited */
+a:visited {
+    color: rgb(116, 87, 221);
+}
+
+
+div[role=article]{
+    background-color: rgb(253, 233, 167);
+    border-width: 3px;
+    margin: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8bf0ba;
+    align-content: left;
+    width: 95%;
+    border-radius: 20px;
+}
+
+div[class=design-selection]{
+    background-color: #8bf0ba;
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #F2B0D8;
+    text-align: left;
+    width: 90%;
+    float: right;
+    border-radius: 15px;
+}
+
+div[class=design-archives]{
+    background-color: #F2B0D8;
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8bf0ba;
+    text-align: left;
+    width:90%;
+    float: right;
+    border-radius: 15px;
+}
+
+
+
+div[class=zen-resources]{
+    background-color: #94f0f1;
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #F2B0D8;
+    text-align: left;
+    width: 90%;
+    float: right;
+    border-radius: 15px;
+}
+
+h1{
+    background-color: rgb(253, 233, 167);
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #F2B0D8;
+    text-align: center;
+    width: 200px;
+    text-shadow: 2px 2px rgb(252, 238, 196);
+    border-radius: 15px;
+}
+
+h2{
+    background-color: rgb(253, 233, 167);
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #94f0f1;
+    text-align: center;
+    width: 300px;
+    border-radius: 15px;
+}
+
+h3{
+    text-align: left;
+    
+}
+
+div[class=wrapper]{
+    background-color: rgb(253, 233, 167);
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8bf0ba;
+    align-content: left;
+    width: 35%;
+    float: right;
+    border-radius: 20px;
+}
+
+div[role=main]{
+    background-color: rgb(253, 233, 167);
+    border-width: 3px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8bf0ba;
+    align-content: left;
+    width: 60%;
+    float: left;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #8bf0ba;
+    border-width: 3px;
+    margin: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #8bf0ba;
+    text-align: center;
+    width: 95%;
+    float: left;
+    word-spacing: 30px;
+    border-radius: 10px;
+}
+

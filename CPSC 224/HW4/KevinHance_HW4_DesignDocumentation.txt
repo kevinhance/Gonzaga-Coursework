@@ -1,0 +1,21 @@
+CPSC 224-01, Spring 2018
+Programming Assignment #4 (Queue)
+@author Kevin Hance
+@version v1.0 2/22/2018
+
+This program creates a First-Come-First-Serve (FCFS) data structure using an Array for keeping track
+of tasks that need to be completed. There are two forms of the Queue data structure: a normal 
+"Queue", and a "PriorityQueue" with slightly more functionality. PriorityQueue allows the user
+to define a priority for the task, where higher priorities are "completed" first when dequeue()
+is called. The normal Queue just uses the FCFS order when "completing" tasks.
+
+The design for my program was admittedly not the most efficient, as every enqueue() and dequeue() has a
+worst case big-O of O(n). However, the program still performs all of the functions it needs to complete,
+despite it's sub-par runtime.
+
+I ran into numerous off-by-one errors resulting in ArrayOutOfBounds exceptions, but other than that,
+I didn't run into any major problems while writing my code.
+
+If I had more time, I would have designed this using a "circular array" that doesn't require all elements
+to be shifted left when dequeue() is called. I also would have worked more to avoid redundancy in the functions
+between the superclass (Queue) and child class (PriorityQueue).

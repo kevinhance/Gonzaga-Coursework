@@ -1,0 +1,23 @@
+CPSC 224-01, Spring 2018
+Programming Assignment #6 (Yahtzee)
+@author Kevin Hance
+@version v1.0 3/23/2018
+
+This program model the foundation for the creation of a playable Lizard-Spock-Yahtzee game. So far, the program allows
+the user to roll the dice as many times as is specified in "maxRolls", choosing which dice they want to keep after each
+roll. Following the last roll, a list of scores will be outputted to the console. These will show the user how many points
+they can earn buy choosing to score in any of the 13+ possible rows on the Yahtzee scoreboard. The user can then pick any
+row they haven't already used to score, and the game continues until all rows have been filled.
+
+The design for my program was focused around breaking the problem up into different classes: Scoreboard,
+Hand, Die, and Yahtzee, which contains the main method. Breaking the problem down into different classes
+made the program significantly less redundant and easier to read. In addition, using Collections.sort instead
+of Bubble Sort reduces runtime in terms of worst case big-O measurements. As I built more of this program, I
+quickly learned that I should have split up class functions differently to reduce clutter in the main method.
+
+I ran into numerous FileNotFoundException and NoSuchElementExceptions when dealing with the configuration from a text file.
+I also ran into a few issues regarding static methods using non-static variables.. Other than that, nothing major impeded
+me on this assignment.
+
+If I had more time, I would have done far more testing and optimizing to ensure this game runs correctly for dice with
+more than 6 values and for hands of more than 5 dice.

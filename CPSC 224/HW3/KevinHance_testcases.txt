@@ -1,0 +1,59 @@
+Kevin Andrew Hance
+February 7th, 2018
+Object Oriented Programming
+HW Assignment #3: Test Cases
+
+contents of data.txt:
+1 2
+
+console output from program:
+Reading file "data.txt"..
+Number of Elements: 2
+Populating array..
+Maximum area of container: 1
+
+contents of data.txt:
+1 10 5 3 4 9 8 6 7 2
+
+console output from program:
+Reading file "data.txt"..........
+Number of Elements: 10
+Populating array..........
+Maximum area of container: 49
+
+contents of data.txt:
+40	62	73	39
+10	18	11	29
+47	26	37	42
+99	1	95	64
+39	39	18	58
+36	95	37	16
+81	65	67	48
+98	71	192	345
+
+console output from program:
+Reading file "data.txt"................................
+Number of Elements: 32
+Populating array................................
+Maximum area of container: 2117
+
+contents of data.txt:
+(data.txt is empty)
+
+console output from program:
+Reading file "data.txt"
+Number of Elements: 0
+Populating array
+Operation can not be performed on an empty array.
+
+contents of data.txt:
+10
+
+console output from program:
+Reading file "data.txt".
+Number of Elements: 1
+Populating array.
+Operation can not be performed with only one element in array.
+
+
+

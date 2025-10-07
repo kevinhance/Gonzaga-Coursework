@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        let xhr = new XMLHttpRequest();
+        xhr.addEventListener("load", function() {
+            console.log(this.status);
+            let ans = JSON.parse(this.responseText);
+            console.log(ans);
+            let name = ans.name;
+            console.log(name);
+        });
+
+        xhr.open('GET', "https://api.spotify.com/v1/artists/5K4W6rqBFWDnAN6FQUkS6x", true);
+        xhr.setRequestHeader('Accept', 'application/json');
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.setRequestHeader('Authorization', 'Bearer BQCC-cslToMME8fD2PuKeehYl1JRkt5mqrZR26oFluXr8w7nl4vmY9TN4cMvF5LqfDowf_kZwvTlBv0-FeIJiE8ldn9y_tgZT9CrMNcldhM81QCF8d-Meht1PBfYIixsSJpZT7tJDfAIXgQN2w');
+        xhr.send();
+    </script>
+</html>

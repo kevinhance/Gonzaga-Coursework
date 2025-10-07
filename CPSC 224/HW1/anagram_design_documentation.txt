@@ -1,0 +1,28 @@
+/**
+*
+* CPSC 224-01, Spring 2018
+* Programming Assignment #1 (Anagram Check)
+* @author Kevin Hance
+* @version v1.0 1/25/18
+*
+* This program compares any two strings (consisting only of alphanumeric characters and spaces), then
+* outputs whether or not the two strings are anagrams of each other. The program begins by prompting
+* user for two strings, then converts them into character arrays, which allows us to compare the size
+* and contents of the two strings in a simple and organized manner. If one of the two strings contains
+* the character '!', the program quits and says "Goodbye".
+*
+* The design for my program was quite simple, as we only needed one helper function for simplicity.
+* There is one class, AnagramCheck, which contains a main function and an isAnagram helper function,
+* which takes in two strings and returns a boolean representing whether or not the two strings are
+* anagrams of each other. If any non-alphanumeric characters (besides ! and spaces) are entered, the
+* program may produce undesirable results.
+* 
+* Because of the sheer simplicity of this assignment, I did not run into any major design or
+* programming issues.
+*
+* If I had more time, I'd have added functionality to ignore (or accurately take into account) any
+* non-alphanumeric characters entered. I would also implement a more streamlined and user-friendly
+* console interface. However, for the purposes of this assignment, I believe the algorithm and
+* interface I implemented are sufficient.
+*
+*/

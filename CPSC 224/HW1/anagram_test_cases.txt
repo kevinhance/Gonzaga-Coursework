@@ -1,0 +1,36 @@
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+hello
+Please type in another phrase and press Enter:
+lelho
+hello is anagram of lelho.
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+quit
+Please type in another phrase and press Enter:
+tiqu
+quit is anagram of tiqu.
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+quit
+Please type in another phrase and press Enter:
+qui
+quit is not anagram of qui.
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+Hello world
+Please type in another phrase and press Enter:
+Goodbye world
+Hello world is not anagram of Goodbye world.
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+qwerty
+Please type in another phrase and press Enter:
+yerq TW
+qwerty is anagram of yerq TW.
+Enter "!" into either prompt to quit.
+Please type in any phrase (alphanumerics and spaces only) and press Enter:
+!
+Please type in another phrase and press Enter:
+!
+Goodbye, thanks for using my program!

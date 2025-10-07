@@ -1,0 +1,27 @@
+/**
+*
+* CPSC 224-01, Spring 2018
+* Programming Assignment #2 (Zig-Zag Conversion)
+* @author Kevin Hance
+* @version v1.0 1/31/18
+*
+* This program takes in a string of alphanumeric characters, converts them into a 2-Dimensional 
+* character array similar to the zig-zag shaped strings in the programming assignment #2 document,
+* then iterates through the array left-to-right, then top-down and enters the alphanumeric characters
+* into a second string, which is returned and printed out for the user. The user can enter any positive
+* integer with any string of alphanumeric characters and the program should function correctly. If
+* the user enters any integer less than or equal to 0 for the number of rows, the program will exit.
+*
+* The design for my program was admittedly more complex than necessary, but I wanted to try to emply
+* prior Java knowledge to solve this problem is a way that mirrors the way the problem was presented to me.
+* Using a 2-Dimensional character array to organize the characters allows us to map out the zig-zagged
+* string almost exactly how it was shown in the assignment #2 document.
+* 
+* I ran into a few off-by-one errors that resulted in some ArrayOutOfBounds excepetions, but these errors
+* were not difficult to diagnose and fix.
+*
+* If I had more time, I'd have optimized the program to use as little memory as possible while still
+* solving the problem in a visually understandable way, but due to time constraints I opted for a simpler
+* and more resource-intensive solution.
+*
+*/

@@ -1,0 +1,29 @@
+Please enter a string (alphanumeric characters only): ABCDEFGH
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 2
+
+Your converted string: ACEGBDFH
+Please enter a string (alphanumeric characters only): ABCDEFGHIJKLMNO
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 3
+
+Your converted string: AEIMBDFHJLNCGKO
+Please enter a string (alphanumeric characters only): my name is Kevin Hance
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 5
+
+Your converted string: MINYSHNEKIAEAENMVC
+Please enter a string (alphanumeric characters only): this works with any positive integer
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 120
+
+Your converted string: THISWORKSWITHANYPOSITIVEINTEGER
+Please enter a string (alphanumeric characters only): it also works with long sentences and small row numbers
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 2
+
+Your converted string: IASWRSIHOGETNEADMLRWUBRTLOOKWTLNSNECSNSALONMES
+Please enter a string (alphanumeric characters only): now we will quit
+To quit program, enter zero or any negative integer
+Please enter desired number of rows(integer values only): 0
+Goodbye, thanks for using my program!

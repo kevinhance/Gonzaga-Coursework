@@ -1,0 +1,27 @@
+CPSC 224-01, Spring 2018
+Programming Assignment #3 (Container)
+@author Kevin Hance
+@version v1.0 2/7/2018
+
+This program creates an array full of integers in "data.txt". Integers i and j are indexes
+of 2 different elements in the array. Then, using the integers in the array at elements i and
+j, the program finds the maximum container size (height * width). Height is defined as the
+minimum of the two values being compared. Width is defined as j minus i. After trying every
+possible combination of i, j, ai, and aj where i < j, the program will output the maximum
+container area using the algorithm described above.
+
+The design for my program was quite simple. First, the program goes through the data file once
+to find the number of elements, which is used as the size for array initialization. Then, the file
+is traversed once more to populate the array with integers. If the array contains at least two
+elements, the MaximumContainer function is called. This function uses a nested for-loop to find
+every possible combination of i, j, ai, and aj where i < j. After trying each combo and comparing
+the area with the maximum area found thus far, the program will output the maximum container area
+using the algorithm described in the first paragraph.
+
+Initially, I was running into an odd runtime error that caused the program to find one string,
+but no integers, in the data.txt file. After some troubleshooting, I realized that I had initialized
+the Scanner by passing in the String "data.txt", instead of passing in new File("data.txt"). Once I
+fixed this careless mistake, I had no further problems getting my program to work.
+
+Because of the sheer simplicity of this program, I don't think there isn't much more that I could do
+to noticeably improve the runtime or user interfance of this program.

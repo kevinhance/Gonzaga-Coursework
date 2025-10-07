@@ -1,0 +1,114 @@
+Kevin Andrew Hance
+March 23th, 2018
+Object Oriented Programming
+HW Assignment #6 (Lizard Spock Yahtzee): Test Cases
+
+You will be playing with 5 6-sided dice.
+You will get 3 rolls per hand.
+
+Enter 'y' if you would like to change the configuration: y
+Enter the number of sides on each die: 6
+Enter the number of dice in play: 5
+Enter the number of rolls per hand: 3
+
+Your roll was: 3 1 2 1 1 
+enter dice to keep (y or n) nynny
+
+Your roll was: 6 1 6 1 1 
+enter dice to keep (y or n) yyyyy
+
+Here is your sorted hand : 1 1 1 6 6 
+Enter 1 to score 3 on the 1 line
+Enter 2 to score 0 on the 2 line
+Enter 3 to score 0 on the 3 line
+Enter 4 to score 0 on the 4 line
+Enter 5 to score 0 on the 5 line
+Enter 6 to score 12 on the 6 line
+Enter A to score 15 on the 3 of a Kind line
+Enter B to score 0 on the 4 of a Kind line
+Enter C to score 25 on the Full House line
+Enter D to score 0 on the Small Straight line
+Enter E to score 0 on the Large Straight line
+Enter F to score 0 on the Yahtzee line
+Enter G to score 15 on the Chance line
+C
+Your roll was: 3 2 1 4 5 
+enter dice to keep (y or n) nnnnn
+
+Your roll was: 2 5 6 1 5 
+enter dice to keep (y or n) nynny
+
+Here is your sorted hand : 1 2 5 5 6 
+Enter 1 to score 1 on the 1 line
+Enter 2 to score 2 on the 2 line
+Enter 3 to score 0 on the 3 line
+Enter 4 to score 0 on the 4 line
+Enter 5 to score 10 on the 5 line
+Enter 6 to score 6 on the 6 line
+Enter A to score 0 on the 3 of a Kind line
+Enter B to score 0 on the 4 of a Kind line
+Enter C to score 0 on the Full House line
+Enter D to score 0 on the Small Straight line
+Enter E to score 0 on the Large Straight line
+Enter F to score 0 on the Yahtzee line
+Enter G to score 19 on the Chance line
+5
+Your roll was: 1 5 6 5 4 
+enter dice to keep (y or n) nynyn
+
+Your roll was: 4 5 3 5 4 
+enter dice to keep (y or n) nynyn
+
+Here is your sorted hand : 3 4 4 5 5 
+Enter 1 to score 0 on the 1 line
+Enter 2 to score 0 on the 2 line
+Enter 3 to score 3 on the 3 line
+Enter 4 to score 8 on the 4 line
+Enter 5 to score 10 on the 5 line
+Enter 6 to score 0 on the 6 line
+Enter A to score 0 on the 3 of a Kind line
+Enter B to score 0 on the 4 of a Kind line
+Enter C to score 0 on the Full House line
+Enter D to score 0 on the Small Straight line
+Enter E to score 0 on the Large Straight line
+Enter F to score 0 on the Yahtzee line
+Enter G to score 21 on the Chance line
+5
+Score has already been used
+Enter 1 to score 0 on the 1 line
+Enter 2 to score 0 on the 2 line
+Enter 3 to score 3 on the 3 line
+Enter 4 to score 8 on the 4 line
+Enter 5 to score 10 on the 5 line
+Enter 6 to score 0 on the 6 line
+Enter A to score 0 on the 3 of a Kind line
+Enter B to score 0 on the 4 of a Kind line
+Enter C to score 0 on the Full House line
+Enter D to score 0 on the Small Straight line
+Enter E to score 0 on the Large Straight line
+Enter F to score 0 on the Yahtzee line
+Enter G to score 21 on the Chance line
+G
+Your roll was: 5 4 4 6 3 
+enter dice to keep (y or n) yyynn
+
+Your roll was: 5 4 4 4 3 
+enter dice to keep (y or n) yyyyn
+
+Here is your sorted hand : 3 4 4 4 5 
+Enter 1 to score 0 on the 1 line
+Enter 2 to score 0 on the 2 line
+Enter 3 to score 3 on the 3 line
+Enter 4 to score 12 on the 4 line
+Enter 5 to score 5 on the 5 line
+Enter 6 to score 0 on the 6 line
+Enter A to score 20 on the 3 of a Kind line
+Enter B to score 0 on the 4 of a Kind line
+Enter C to score 0 on the Full House line
+Enter D to score 0 on the Small Straight line
+Enter E to score 0 on the Large Straight line
+Enter F to score 0 on the Yahtzee line
+Enter G to score 20 on the Chance line
+A
+Your roll was: 5 2 3 4 5 
+enter dice to keep (y or n) 

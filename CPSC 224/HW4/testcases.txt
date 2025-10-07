@@ -1,0 +1,153 @@
+Kevin Andrew Hance
+February 7th, 2018
+Object Oriented Programming
+HW Assignment #4 (Queue): Test Cases
+
+	Because this assignment did not require capability for user input,
+	I did all of my testing in the main method. Below is the code used
+	to fill, display, and empty the two different kinds of Queues.
+
+		PriorityQueue q = new PriorityQueue(10);
+		q.enqueue(new Task("Eat your vegetables", 2));
+		q.enqueue(new Task("Take the trash out", 1));
+		q.enqueue(new Task("Go to work", 3));
+		q.enqueue(new Task("Take the recycle out", 4));
+		q.enqueue(new Task("Stop by Safeway", 5));
+		q.dequeue();
+		
+		q.enqueue(new Task("Change oil in the Toyota", 6));
+		q.enqueue(new Task("Update accounting software", 2));
+		q.enqueue(new Task("Wash the dishes", 5));
+		q.enqueue(new Task("Do CPEN pre-lab", 5));
+		q.display();
+		
+		
+		q.dequeue();
+		q.dequeue();
+		q.dequeue();
+		q.dequeue();
+		q.display();
+		
+		q.dequeue();
+		q.dequeue();
+		q.display();
+		
+		q.dequeue();
+		q.dequeue();
+		q.dequeue();
+		q.display();
+		
+		q.dequeue();
+		q.dequeue();
+		q.display();
+		
+		System.out.println("\nNow that we've filled up and emptied the Priority Queue, we will test the normal Queue.");
+		
+		Queue q2 = new Queue(10);
+		
+		q2.enqueue(new Task("Take the trash out"));
+		q2.display();
+		
+		q2.enqueue(new Task("Feed the fish"));
+		q2.enqueue(new Task("Walk Brenda's dog"));
+		q2.enqueue(new Task("Visit Jake at work"));
+		q2.display();
+		
+		q2.enqueue(new Task("Fill car with gas"));
+		q2.enqueue(new Task("Go to class"));
+		q2.enqueue(new Task("Bring the garbage bin back up the driveway"));
+		q2.display();
+		
+		q2.enqueue(new Task("Empty the dishwasher"));
+		q2.enqueue(new Task("Make the bed in the guest room"));
+		q2.display();
+		
+		q2.dequeue();
+		q2.dequeue();
+		q2.dequeue();
+		q2.dequeue();
+		q2.display();
+		
+		q2.dequeue();
+		q2.dequeue();
+		q2.dequeue();
+		q2.dequeue();
+		q2.display();
+		
+		q2.dequeue();
+		q2.dequeue();
+		q2.display();
+		
+	Below this is the console output from those functions. Notice that both
+	the generic queue and the priority queue are asked to add a task when
+	they're full and remove a task when they're empty. Both types of queues
+	handle this by outputting a message to the console and not attempting to
+	perform the action, to avoid crashing. In addition, if display() is called
+	on an empty queue, a message is outputted to the console notifying the user
+	that the queue is empty and nothing will be displayed.
+	
+		Index: 0	Task Priority: 6	Task: Change oil in the Toyota
+		Index: 1	Task Priority: 5	Task: Wash the dishes
+		Index: 2	Task Priority: 5	Task: Do CPEN pre-lab
+		Index: 3	Task Priority: 4	Task: Take the recycle out
+		Index: 4	Task Priority: 3	Task: Go to work
+		Index: 5	Task Priority: 2	Task: Eat your vegetables
+		Index: 6	Task Priority: 2	Task: Update accounting software
+		Index: 7	Task Priority: 1	Task: Take the trash out
+
+		Index: 0	Task Priority: 3	Task: Go to work
+		Index: 1	Task Priority: 2	Task: Eat your vegetables
+		Index: 2	Task Priority: 2	Task: Update accounting software
+		Index: 3	Task Priority: 1	Task: Take the trash out
+
+		Index: 0	Task Priority: 2	Task: Update accounting software
+		Index: 1	Task Priority: 1	Task: Take the trash out
+
+		Queue is empty, dequeue can not be executed on an empty queue.
+
+		Queue is empty
+
+		Queue is empty, dequeue can not be executed on an empty queue.
+
+		Queue is empty, dequeue can not be executed on an empty queue.
+
+		Queue is empty
+
+
+		Now that we've filled up and emptied the Priority Queue, we will test the normal Queue.
+		Index: 0	Task: Take the trash out
+
+		Index: 0	Task: Take the trash out
+		Index: 1	Task: Feed the fish
+		Index: 2	Task: Walk Brenda's dog
+		Index: 3	Task: Visit Jake at work
+
+		Index: 0	Task: Take the trash out
+		Index: 1	Task: Feed the fish
+		Index: 2	Task: Walk Brenda's dog
+		Index: 3	Task: Visit Jake at work
+		Index: 4	Task: Fill car with gas
+		Index: 5	Task: Go to class
+		Index: 6	Task: Bring the garbage bin back up the driveway
+
+		Index: 0	Task: Take the trash out
+		Index: 1	Task: Feed the fish
+		Index: 2	Task: Walk Brenda's dog
+		Index: 3	Task: Visit Jake at work
+		Index: 4	Task: Fill car with gas
+		Index: 5	Task: Go to class
+		Index: 6	Task: Bring the garbage bin back up the driveway
+		Index: 7	Task: Empty the dishwasher
+		Index: 8	Task: Make the bed in the guest room
+
+		Index: 0	Task: Fill car with gas
+		Index: 1	Task: Go to class
+		Index: 2	Task: Bring the garbage bin back up the driveway
+		Index: 3	Task: Empty the dishwasher
+		Index: 4	Task: Make the bed in the guest room
+
+		Index: 0	Task: Make the bed in the guest room
+
+		Queue is empty, dequeue can not be executed on an empty queue.
+
+		Queue is empty
