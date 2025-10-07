@@ -1,0 +1,36 @@
+{
+  "ai": [
+    {
+      "title": "AI 1",
+      "blurb": "This is AI 1",
+      "content": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "AI 2",
+      "blurb": "This is AI 2",
+      "content": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "AI 3",
+      "blurb": "This is AI 3",
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  ],
+  "gamming": [
+    {
+      "title": "gamming 1",
+      "blurb": "This is gamming 1",
+      "content": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "gamming 2",
+      "blurb": "This is gamming 2",
+      "content": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "gamming 3",
+      "blurb": "This is gamming 3",
+      "content": "Lorem ipsum dolor sit amet"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+html {
+	--font: 'Play', sans-serif;
+	--second-color: #2266aa;
+}
+
+body {
+	background-image: url(../images/bg.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+/* Style for container centers the page and sets the element width
+================================================== */
+#container {
+	top: 40px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: block;
+	font-family: var(--font);
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 25px;
+}
+
+/*Style for main
+==================================================*/
+header {
+	margin-bottom: 5px;
+}
+
+header img {
+	width: 75%;
+}
+
+p {
+	font-family: var(--font);
+	color: #fff;
+}
+
+.top {
+	background-color: #333;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	padding: 0 18px;
+  overflow: hidden;
+}
+
+@media(min-width:750px){
+	section {
+		display: flex;
+		align-items: stretch;
+		flex-direction: row;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+}
+article {
+	flex-basis: 27%;
+	border: 1px solid #222;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article img {
+	height: 45%;
+	width: 45%;
+}
+
+div.button {
+	position: relative;
+	font-family: var(--font);
+	margin: 0 auto;
+ }
+
+div.button a {
+	margin: 0;
+	background: var(--second-color);
+	color: #fff;
+	position: relative;
+	left: 25%;
+	bottom: 5px;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+  display: inline-block;
+	font-size: 16px;
+	font-family: var(--font);
+	border-radius: 15px;
+}
+div.button a:hover {
+	text-decoration: underline; 
+}
+
+/*Expandable 
+==================================================*/
+
+.category {
+	background-color: #777;
+	color: #fff;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.active, .category:hover {
+  background-color: #333;
+}
+
+.content {
+	padding: 0 18px;
+  display: none;
+  overflow: hidden;
+	background-color: #333;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	
+}
+
+
+/*onclick fill categories
+==================================================*/
+
+/*Helpful classes
+==================================================*/
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.indent {
+	text-indent: 2em;
+}
